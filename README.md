@@ -6,7 +6,7 @@ O projeto foi dividido em duas partes no mesmo notebook à pedido dos professore
 A primeira parte consiste em uma previsão de série temporal utilizando um conselho de modelos de machine learning clássico. O dataset utilizado resume vendas diárias de uma loja focada em materiais de escritório. Mais informações sobre a fonte de dados, uma análise exploratória e os tratamentos de dados utilizados podem ser encontrados no [projeto anterior](https://github.com/flaviohds/MVP_Vendas_Analise).
 A segunda parte consiste no fine-tunning do modelo de processamento de linguagem natural (NLP) pré-treinado [Google BERT](https://huggingface.co/bert-base-cased). A tarefa é treinar o modelo para prever a classificação de avaliações de usuários utilizando uma [base de dados de avaliações de produtos da Amazon](https://huggingface.co/datasets/defunct-datasets/amazon_reviews_multi). Ao final, é verificado como este novo modelo ajustado se sai diante de uma nova tarefa de classificar tweets simulados sobre produtos.
 
-Características do problema e técnicas relevantes utilizadas:
+Características do problema e técnicas relevantes utilizadas na parte 1:
 - Regressão com Machine Learning
 - Previsão de série temporal
 - Conselho de modelos (ensemble)
@@ -15,6 +15,8 @@ Características do problema e técnicas relevantes utilizadas:
 - Normalização e padronização
 - Ajuste de hiperparâmetros
 - [Facebook Prophet](https://facebook.github.io/prophet/)
+
+Características do problema e técnicas relevantes utilizadas na parte 2:
 
 - Deep Learning
 - Processamento de linguagem natural
